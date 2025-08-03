@@ -13,6 +13,9 @@ import com.cjc.app.repository.StudentRepository;
 @SpringBootApplication
 public class Application {
 
+        int x = 100;
+
+
 	public static void main(String[] args) {
 
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
