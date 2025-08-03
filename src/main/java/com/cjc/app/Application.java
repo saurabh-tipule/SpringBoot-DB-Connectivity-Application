@@ -19,6 +19,13 @@ public class Application {
 		System.out.println("m1--Method");
 	}
 
+	public void findEvenOdd() {
+		int num = 9;
+
+		String msg = (num % 2 == 0) ? "Even Number : " + num : "Odd Number :" + num;
+		System.out.println(msg);
+	}
+
 	public static void main(String[] args) {
 
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
